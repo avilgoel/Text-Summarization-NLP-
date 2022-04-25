@@ -17,7 +17,7 @@ Pre-processing of the Text
 textProcessing = TextProcessing()
 tokenizedSentence = textProcessing.sentenceTokenization(text)
 
-noOfSentences = 0.50*len(tokenizedSentence)
+noOfSentences = 0.30*len(tokenizedSentence)
 # print(tokenizedSentence)
 
 text = textProcessing.preprocessText(text)
